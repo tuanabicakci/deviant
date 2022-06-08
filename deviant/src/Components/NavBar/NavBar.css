@@ -1,0 +1,86 @@
+
+.NavBarItems{
+    background :#000000;
+    width: 1536px;
+    height: 80px;
+    display: flex; /*Displays an element as a block-level flex container*/
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+}
+
+.NavBarLogo{
+
+    font-family: 'VT323', monospace;
+    color:#1af4ba;
+    font-size: 3rem;
+    padding-right: 3rem;
+}
+
+.NavBarLogo span:nth-child(1){
+    color:white;
+}
+
+.fa-gamepad{
+    font-size: 40px;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    list-style: none;
+}
+
+.search-bar{
+
+    background-color:white;
+    font-family:'Nunito', sans-serif;
+    border: none;
+    width: 30rem;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    position: center;
+
+}
+.search{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+.nav-links {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-links:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom:-23px;
+    left:0;
+    background-color: #1af4ba;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+a{
+    color:white;
+    text-decoration:none ;
+}
+
+

@@ -22,9 +22,9 @@ function NavBar() {
 
 
                 <ul className="nav-menu">
-                    <li className="nav-links"><Link to="/home">Home</Link></li>
-                    <li className="nav-links"><Link to="/explore">Explore</Link></li>
-                    <li className="nav-links"><Link to="/forums">Forums</Link></li>
+                    <li className="nav-links"><Link to="/home">HOME</Link></li>
+                    <li className="nav-links"><Link to="/explore">EXPLORE</Link></li>
+                    <li className="nav-links"><Link to="/forums">FORUMS</Link></li>
                     <li><div className="search"><input className="search-bar" type="text" placeholder={"Search..."}/></div></li>
                     <li className="nav-links"><Link to="/notifications"><i className="fa-solid fa-bell"></i></Link></li>
                     <li className="nav-links"><Link to="/post"><i className="fa-solid fa-pen-to-square"></i></Link></li>

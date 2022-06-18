@@ -11,6 +11,7 @@ function Genres() {
     return(
 
         <div >
+            <img src="public/images/bookshelf.png" alt="bookshelf"/>
             <div className="browse-games">
                     <h1 className="title">Browse Games</h1>
                 <ul className="genres">

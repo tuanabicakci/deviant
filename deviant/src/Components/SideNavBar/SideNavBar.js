@@ -4,8 +4,8 @@ import{ useState } from 'react';
 function SideNavBar(){
     const [clicked, setClick] = useState(false);
     return(
-            <div className="name">
-
+            <div className="sidenav-box">
+                <nav className="name"></nav>
             </div>
         )
 

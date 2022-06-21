@@ -11,18 +11,15 @@ function Genres() {
     return(
 
         <div >
-            <img src="public/images/bookshelf.png" alt="bookshelf"/>
-            <div className="browse-games">
-                    <h1 className="title">Browse Games</h1>
+                       <div className="browse-games">
                 <ul className="genres">
-                    <li onClick={()=>{setTag('action');setIsShown(true)}} ><i className="fa-solid fa-hand-fist"></i>Action</li>
-                    <li onClick={()=>{setTag('adventure');setIsShown(true)}}><i
-                        className="fa-solid fa-mountain-sun"></i>Adventure</li>
-                    <li onClick={()=>{setTag("puzzle");setIsShown(true)}}><i className="fa-solid fa-puzzle-piece"></i>Puzzle</li>
-                    <li onClick={()=>{setTag("role-play");setIsShown(true)}}><i className="fa-solid fa-masks-theater"></i>Role-play</li>
-                    <li onClick={()=>{setTag("simulation");setIsShown(true)}}><i className="fa-solid fa-dragon"></i>Simulation</li>
-                    <li onClick={()=>{setTag("strategy");setIsShown(true)}}><i className="fa-solid fa-chess-knight"></i>Strategy</li>
-                    <li onClick={()=>{setTag("sports");setIsShown(true)}}><i className="fa-solid fa-football"></i>Sports</li>
+                    <li style={{backgroundImage:"url(/images/explore/blueB.png)"}} onClick={()=>{setTag('action');setIsShown(true)}} >Action</li>
+                    <li style={{backgroundImage:"url(/images/explore/redB.png)"}} onClick={()=>{setTag('adventure');setIsShown(true)}}>Adventure</li>
+                    <li style={{backgroundImage:"url(/images/explore/pinkB.png)"}} onClick={()=>{setTag("puzzle");setIsShown(true)}}>Puzzle</li>
+                    <li style={{backgroundImage:"url(/images/explore/greenB.png)"}} onClick={()=>{setTag("role-play");setIsShown(true)}}>Role-play</li>
+                    <li style={{backgroundImage:"url(/images/explore/yellowB.png)"}} onClick={()=>{setTag("simulation");setIsShown(true)}}>Simulation</li>
+                    <li style={{backgroundImage:"url(/images/explore/purpleB.png)"}} onClick={()=>{setTag("strategy");setIsShown(true)}}>Strategy</li>
+                    <li style={{backgroundImage:"url(/images/explore/orangeB.png)"}} onClick={()=>{setTag("sports");setIsShown(true)}}>Sports</li>
 
                 </ul>
             </div>

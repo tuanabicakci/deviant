@@ -16,6 +16,7 @@ import './NavBar.css'//importing the css file
 function NavBar() {
 
         return (
+            <div className="nav-box">
             <nav className="NavBarItems">
                 <h1 className="NavBarLogo">DEV<span>IANT</span> <i
                     className="fa-solid fa-gamepad"></i></h1>
@@ -48,6 +49,8 @@ function NavBar() {
 
                 </ul >*/}
             </nav>
+            </div>
+
         );
 
 

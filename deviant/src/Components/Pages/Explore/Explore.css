@@ -1,46 +1,48 @@
 .browse-games{
-    margin-top:80px;
-    margin-left:5rem;
-    height: 20rem;
-    background: #201d27;
 
-}
-.title{
-    padding-top:50px ;
-    padding-bottom: 30px;
-    color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5rem;
+    height: 400px;
+    background: #201d27 url("/public/images/explore/bookshelf.png");
+
 
 }
 
 .genres{
+
+    padding-top: 30px;
     display: grid;
-    align-content: center;
-    text-align: center;
     list-style: none;
-    grid-template-columns: repeat(7,auto);
-    column-gap: 10px;
-    padding-left: 0;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 30px;
+    row-gap: 50px;
     background-color: transparent;
 }
 
 .genres li{
+
+    padding-left: 3px;
+    line-height: 90px;
+    text-align: center ;
+    height: 130px;
+    width: 130px;
     flex-direction: column;
-    display: flex;
-    row-gap: 1rem;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-left: 0.5rem;
-    border-radius: 20px;
     cursor:pointer;
-    background-color:#121015;
-    font-family: 'Nunito', sans-serif;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'VT323', monospace;
     font-size:15px;
     color: white;
+    transition: all .2s ease-in-out;
 }
 
+
+
 .genres li:hover{
-     color: hotpink;
+        transform: scale(1.1)
  }
 
 
